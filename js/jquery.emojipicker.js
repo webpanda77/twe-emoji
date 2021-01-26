@@ -8766,7 +8766,11 @@ if(typeof jQuery !== 'undefined'){
             var spinner = $('<div></div>')
                 .addClass('loader');
             spinnerContainer.append(spinner);
-    
+            
+
+            var searchWrapper = $('<div></div>').addClass('lsx-emojipicker-search-wrapper');
+            var closeButton = $('<div><div id="search-header"><span><img class="emoji" draggable="false" alt="🔍" src="https://twemoji.maxcdn.com/2/72x72/1f50d.png"></span> <input placeholder="Search emojis."></div><a href="javascript:void(0)" class="close-emoji module-close-btn"></a></div>');
+            searchWrapper.append(closeButton);
 
 
             var emojiFaceContainer = $('<div></div>')
@@ -8798,6 +8802,9 @@ if(typeof jQuery !== 'undefined'){
 
             var emojiFlagContainer = $('<div></div>')
                 .addClass('lsx-emojipicker-emoji lsx-emoji-tab lsx-emoji-flag hidden');
+
+            var emojiSearchContainer = $('<div></div>')
+                .addClass('lsx-emojipicker-emoji lsx-emoji-tab lsx-emoji-search hidden');
     
             var tabs = $('<ul></ul>')
                 .addClass('lsx-emojipicker-tabs');
@@ -8926,7 +8933,8 @@ if(typeof jQuery !== 'undefined'){
             createEmojiTab(9, emojiFlagContainer, container);
     
             //wrapper.append(spinnerContainer);
-            wrapper.append(emojiFaceContainer)
+            wrapper.append(searchWrapper)
+                   .append(emojiFaceContainer)
                    .append(emojiHandContainer)
                    .append(emojiHairContainer)
                    .append(emojiAnimalContainer)
@@ -8935,7 +8943,8 @@ if(typeof jQuery !== 'undefined'){
                    .append(emojiGiftContainer)
                    .append(emojiMusicContainer)
                    .append(emojiObjectContainer)
-                   .append(emojiFlagContainer);
+                   .append(emojiFlagContainer)
+                   .append(emojiSearchContainer);
             wrapper.append(tabs);
             container.append(wrapper);
             appender.append(container);
@@ -8956,7 +8965,7 @@ if(typeof jQuery !== 'undefined'){
                 twemoji.parse(tabs[0], {size: 72});
             }
     
-            this.click(function(e){
+            $('.emoji-picker').click(function(e){
                 e.preventDefault();
                 if(!$(e.target).parent().hasClass('lsx-emojipicker-tabs') 
                     && !$(e.target).parent().parent().hasClass('lsx-emojipicker-tabs') 
@@ -8969,11 +8978,92 @@ if(typeof jQuery !== 'undefined'){
                     }
                 }
             });
+            $('.close-emoji').click(function(e){
+                e.preventDefault();
+                if(container.is(':visible')){
+                    container.hide();
+                } else {
+                    container.fadeIn();
+                }
+            });
+
+            $('.lsx-emojipicker-tabs li').click(function(e){
+                $('.lsx-emojipicker-search-wrapper #search-header input').val('');
+            })
+
+            $('.lsx-emojipicker-search-wrapper #search-header input').focus(function(){
+                $('.lsx-emojipicker-search-wrapper #search-header').addClass('focus-in')
+            })
+            $('.lsx-emojipicker-search-wrapper #search-header input').focusout(function(){
+                $('.lsx-emojipicker-search-wrapper #search-header').removeClass('focus-in')
+            })
             
+            $('.lsx-emojipicker-search-wrapper #search-header input').keyup(function(){
+                if(this.value && this.value.length>0){
+                    $('.lsx-emojipicker-tabs li').removeClass('selected');
+                    Object.entries($('.lsx-emojipicker-emoji.lsx-emoji-tab')).forEach(([key, val]) => {
+                        if(!$(val).hasClass('hidden')){
+                            $(val).addClass('hidden')
+                        }
+                    });
+                    emojiSearchContainer.removeClass('hidden');
+                    var searchString = this.value.toLowerCase();
+                    var searchResult = getSearchResults(string,searchString);
+                    
+                    emojiSearchContainer.html('');
+                    if(searchResult && searchResult.length>0){
+                        createSerachResults(emojiSearchContainer, searchResult,wrapper);
+                    }else{
+                        emojiSearchContainer.html('<p>No emojis found.</p>');
+                    }
+
+                }else{
+                    $('.lsx-emojipicker-tabs li:first-child').trigger('click');
+                    emojiSearchContainer.addClass('hidden');
+                    emojiSearchContainer.html('');
+                }
+            });
             // Apply the plugin to the selected elements
             return this;
         }
-    
+
+        function getSearchResults(string,searchString){
+            var searchResultArray = [];
+            string.forEach(function (s){
+                for(var i =0; i < s.emojiList.length; i++){
+                    for(var j = 0; j < s.emojiList[i].tags.length; j++) {
+                        if(s.emojiList[i].tags[j].indexOf(searchString) !== -1){
+                            searchResultArray.push(s.emojiList[i]);
+                            break;
+                        }
+                    }
+                }
+            })
+            return searchResultArray;
+        }
+        
+        function createSerachResults(container, searchResultArray,wrapper) {
+            for (var i = 0; i < searchResultArray.length; i++){
+                var emoticon = $('<span></span>')
+                    .data('value', searchResultArray[i].unicode)
+                    .attr('title', searchResultArray[i].tags[1])
+                    .html(searchResultArray[i].unicode);
+                
+                emoticon.click(function(e){
+                    e.preventDefault();
+                    settings.onSelect({
+                        'name': $(this).attr('title'),
+                        'value': $(this).data('value')
+                    });
+                    if(settings.closeOnSelect){
+                        wrapper.parent().hide();
+                    }
+                });
+                container.append(emoticon);
+            }
+            twemoji.parse(container[0], {size: 72});
+        }
+
         function createEmojiTab(type, container, wrapper){
             for(var i = 0; i < string[type].emojiList.length; i++){
                 var selectedEmoji = string[type].emojiList[i];
