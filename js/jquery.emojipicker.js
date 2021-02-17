@@ -69,9 +69,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "😙",
                 "tags": ["eye", "face", "kiss", "smile"]
             }, {
-                "unicode": "🥲",
-                "tags": ["grateful", "proud", "relieved", "smiling", "tear", "touched"]
-            }, {
                 "unicode": "😋",
                 "tags": ["delicious", "face", "savouring", "smile", "yum"]
             }, {
@@ -186,9 +183,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🥳",
                 "tags": ["celebration", "hat", "horn", "party"]
             }, {
-                "unicode": "🥸",
-                "tags": ["disguise", "face", "glasses", "incognito", "nose"]
-            }, {
                 "unicode": "😎",
                 "tags": ["bright", "cool", "face", "sun", "sunglasses"]
             }, {
@@ -266,9 +260,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "😫",
                 "tags": ["face", "tired"]
-            }, {
-                "unicode": "🥱",
-                "tags": ["bored", "tired", "yawn"]
             }, {
                 "unicode": "😤",
                 "tags": ["face", "triumph", "won"]
@@ -408,9 +399,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "💜",
                 "tags": ["purple"]
             }, {
-                "unicode": "🤎",
-                "tags": ["brown", "heart"]
-            }, {
                 "unicode": "🖤",
                 "tags": ["black", "evil", "wicked"]
             }, {
@@ -544,34 +532,6 @@ if(typeof jQuery !== 'undefined'){
                     "unicode": "👌🏾"
                 }, {
                     "unicode": "👌🏿"
-                }]
-            }, {
-                "unicode": "🤌",
-                "tags": ["fingers", "hand gesture", "interrogation", "pinched", "sarcastic"],
-                "skins": [{
-                    "unicode": "🤌🏻"
-                }, {
-                    "unicode": "🤌🏼"
-                }, {
-                    "unicode": "🤌🏽"
-                }, {
-                    "unicode": "🤌🏾"
-                }, {
-                    "unicode": "🤌🏿"
-                }]
-            }, {
-                "unicode": "🤏",
-                "tags": ["small amount"],
-                "skins": [{
-                    "unicode": "🤏🏻"
-                }, {
-                    "unicode": "🤏🏼"
-                }, {
-                    "unicode": "🤏🏽"
-                }, {
-                    "unicode": "🤏🏾"
-                }, {
-                    "unicode": "🤏🏿"
                 }]
             }, {
                 "unicode": "✌️",
@@ -941,12 +901,6 @@ if(typeof jQuery !== 'undefined'){
                     "unicode": "💪🏿"
                 }]
             }, {
-                "unicode": "🦾",
-                "tags": ["accessibility", "prosthetic"]
-            }, {
-                "unicode": "🦿",
-                "tags": ["accessibility", "prosthetic"]
-            }, {
                 "unicode": "🦵",
                 "tags": ["kick", "limb"],
                 "skins": [{
@@ -1019,12 +973,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🧠",
                 "tags": ["intelligent"]
-            }, {
-                "unicode": "🫀",
-                "tags": ["cardiology", "centre", "heartbeat", "organ", "pulse"]
-            }, {
-                "unicode": "🫁",
-                "tags": ["breath", "exhalation", "inhalation", "organ", "respiration"]
             }, {
                 "unicode": "🦷",
                 "tags": ["dentist"]
@@ -1658,20 +1606,6 @@ if(typeof jQuery !== 'undefined'){
                     "unicode": "🙋🏾‍♀️"
                 }, {
                     "unicode": "🙋🏿‍♀️"
-                }]
-            }, {
-                "unicode": "🧏",
-                "tags": ["accessibility", "deaf", "ear", "hear"],
-                "skins": [{
-                    "unicode": "🧏🏻"
-                }, {
-                    "unicode": "🧏🏼"
-                }, {
-                    "unicode": "🧏🏽"
-                }, {
-                    "unicode": "🧏🏾"
-                }, {
-                    "unicode": "🧏🏿"
                 }]
             }, {
                 "unicode": "🧏‍♂️",
@@ -2626,20 +2560,6 @@ if(typeof jQuery !== 'undefined'){
                     "unicode": "💂🏿‍♀️"
                 }]
             }, {
-                "unicode": "🥷",
-                "tags": ["fighter", "hidden", "stealth"],
-                "skins": [{
-                    "unicode": "🥷🏻"
-                }, {
-                    "unicode": "🥷🏼"
-                }, {
-                    "unicode": "🥷🏽"
-                }, {
-                    "unicode": "🥷🏾"
-                }, {
-                    "unicode": "🥷🏿"
-                }]
-            }, {
                 "unicode": "👷",
                 "tags": ["construction", "hat", "worker"],
                 "skins": [{
@@ -3428,20 +3348,6 @@ if(typeof jQuery !== 'undefined'){
                     "unicode": "🚶🏿‍♀️"
                 }]
             }, {
-                "unicode": "🧍",
-                "tags": ["stand", "standing"],
-                "skins": [{
-                    "unicode": "🧍🏻"
-                }, {
-                    "unicode": "🧍🏼"
-                }, {
-                    "unicode": "🧍🏽"
-                }, {
-                    "unicode": "🧍🏾"
-                }, {
-                    "unicode": "🧍🏿"
-                }]
-            }, {
                 "unicode": "🧍‍♂️",
                 "tags": ["man", "standing"],
                 "skins": [{
@@ -3468,20 +3374,6 @@ if(typeof jQuery !== 'undefined'){
                     "unicode": "🧍🏾‍♀️"
                 }, {
                     "unicode": "🧍🏿‍♀️"
-                }]
-            }, {
-                "unicode": "🧎",
-                "tags": ["kneel", "kneeling"],
-                "skins": [{
-                    "unicode": "🧎🏻"
-                }, {
-                    "unicode": "🧎🏼"
-                }, {
-                    "unicode": "🧎🏽"
-                }, {
-                    "unicode": "🧎🏾"
-                }, {
-                    "unicode": "🧎🏿"
                 }]
             }, {
                 "unicode": "🧎‍♂️",
@@ -4807,17 +4699,11 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🦍",
                 "tags": ["gorilla"]
             }, {
-                "unicode": "🦧",
-                "tags": ["ape"]
-            }, {
                 "unicode": "🐶",
                 "tags": ["dog", "face", "pet"]
             }, {
                 "unicode": "🐕️",
                 "tags": ["pet"]
-            }, {
-                "unicode": "🦮",
-                "tags": ["accessibility", "blind", "guide"]
             }, {
                 "unicode": "🐕‍🦺",
                 "tags": ["accessibility", "assistance", "dog", "service"]
@@ -4921,9 +4807,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🐘",
                 "tags": ["elephant"]
             }, {
-                "unicode": "🦣",
-                "tags": ["extinction", "large", "tusk", "woolly"]
-            }, {
                 "unicode": "🦏",
                 "tags": ["rhinoceros"]
             }, {
@@ -4951,9 +4834,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🐿️",
                 "tags": ["squirrel"]
             }, {
-                "unicode": "🦫",
-                "tags": ["dam"]
-            }, {
                 "unicode": "🦔",
                 "tags": ["spiny"]
             }, {
@@ -4971,15 +4851,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🐼",
                 "tags": ["face"]
-            }, {
-                "unicode": "🦥",
-                "tags": ["lazy", "slow"]
-            }, {
-                "unicode": "🦦",
-                "tags": ["fishing", "playful"]
-            }, {
-                "unicode": "🦨",
-                "tags": ["stink"]
             }, {
                 "unicode": "🦘",
                 "tags": ["australia", "joey", "jump", "marsupial"]
@@ -5028,15 +4899,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🦉",
                 "tags": ["bird", "wise"]
-            }, {
-                "unicode": "🦤",
-                "tags": ["extinction", "large", "mauritius"]
-            }, {
-                "unicode": "🪶",
-                "tags": ["bird", "flight", "light", "plumage"]
-            }, {
-                "unicode": "🦩",
-                "tags": ["flamboyant", "tropical"]
             }, {
                 "unicode": "🦚",
                 "tags": ["bird", "ostentatious", "peahen", "proud"]
@@ -5116,17 +4978,11 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🐝",
                 "tags": ["bee", "insect"]
             }, {
-                "unicode": "🪲",
-                "tags": ["bug", "insect"]
-            }, {
                 "unicode": "🐞",
                 "tags": ["beetle", "insect", "ladybird", "ladybug"]
             }, {
                 "unicode": "🦗",
                 "tags": ["grasshopper"]
-            }, {
-                "unicode": "🪳",
-                "tags": ["insect", "pest", "roach"]
             }, {
                 "unicode": "🕷️",
                 "tags": ["insect"]
@@ -5139,12 +4995,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🦟",
                 "tags": ["disease", "fever", "malaria", "pest", "virus"]
-            }, {
-                "unicode": "🪰",
-                "tags": ["disease", "maggot", "pest", "rotting"]
-            }, {
-                "unicode": "🪱",
-                "tags": ["annelid", "earthworm", "parasite"]
             }, {
                 "unicode": "🦠",
                 "tags": ["amoeba", "bacteria", "virus"]
@@ -5181,9 +5031,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🌱",
                 "tags": ["young"]
-            }, {
-                "unicode": "🪴",
-                "tags": ["grow", "house", "nurturing", "plant"]
             }, {
                 "unicode": "🌲",
                 "tags": ["tree"]
@@ -5263,17 +5110,11 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🍓",
                 "tags": ["berry", "fruit"]
             }, {
-                "unicode": "🫐",
-                "tags": ["berry", "bilberry", "blue", "blueberry"]
-            }, {
                 "unicode": "🥝",
                 "tags": ["food", "fruit", "kiwi"]
             }, {
                 "unicode": "🍅",
                 "tags": ["fruit", "vegetable"]
-            }, {
-                "unicode": "🫒",
-                "tags": ["food"]
             }, {
                 "unicode": "🥥",
                 "tags": ["palm", "piña colada"]
@@ -5296,9 +5137,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🌶️",
                 "tags": ["hot", "pepper"]
             }, {
-                "unicode": "🫑",
-                "tags": ["bell pepper", "capsicum", "sweet pepper", "vegetable"]
-            }, {
                 "unicode": "🥒",
                 "tags": ["food", "pickle", "vegetable"]
             }, {
@@ -5307,12 +5145,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🥦",
                 "tags": ["wild cabbage"]
-            }, {
-                "unicode": "🧄",
-                "tags": ["flavouring"]
-            }, {
-                "unicode": "🧅",
-                "tags": ["flavouring"]
             }, {
                 "unicode": "🍄",
                 "tags": ["toadstool"]
@@ -5332,9 +5164,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🥖",
                 "tags": ["baguette", "bread", "food", "french"]
             }, {
-                "unicode": "🫓",
-                "tags": ["flatbread"]
-            }, {
                 "unicode": "🥨",
                 "tags": ["twisted"]
             }, {
@@ -5343,9 +5172,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🥞",
                 "tags": ["breakfast", "crêpe", "food", "hotcake", "pancake"]
-            }, {
-                "unicode": "🧇",
-                "tags": ["breakfast", "indecisive", "iron"]
             }, {
                 "unicode": "🧀",
                 "tags": ["cheese"]
@@ -5383,14 +5209,8 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🌯",
                 "tags": ["mexican", "wrap"]
             }, {
-                "unicode": "🫔",
-                "tags": ["mexican", "wrapped"]
-            }, {
                 "unicode": "🥙",
                 "tags": ["falafel", "flatbread", "food", "gyro", "kebab", "stuffed"]
-            }, {
-                "unicode": "🧆",
-                "tags": ["chickpea", "meatball"]
             }, {
                 "unicode": "🥚",
                 "tags": ["breakfast", "food"]
@@ -5404,9 +5224,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🍲",
                 "tags": ["pot", "stew"]
             }, {
-                "unicode": "🫕",
-                "tags": ["cheese", "chocolate", "melted", "pot", "swiss"]
-            }, {
                 "unicode": "🥣",
                 "tags": ["breakfast", "cereal", "congee"]
             }, {
@@ -5415,9 +5232,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🍿",
                 "tags": ["popcorn"]
-            }, {
-                "unicode": "🧈",
-                "tags": ["dairy"]
             }, {
                 "unicode": "🧂",
                 "tags": ["condiment", "shaker"]
@@ -5488,9 +5302,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🦑",
                 "tags": ["food", "molusc"]
             }, {
-                "unicode": "🦪",
-                "tags": ["diving", "pearl"]
-            }, {
                 "unicode": "🍦",
                 "tags": ["cream", "dessert", "ice", "icecream", "soft", "sweet"]
             }, {
@@ -5542,9 +5353,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "☕️",
                 "tags": ["beverage", "coffee", "drink", "hot", "steaming", "tea"]
             }, {
-                "unicode": "🫖",
-                "tags": ["drink", "pot", "tea"]
-            }, {
                 "unicode": "🍵",
                 "tags": ["beverage", "cup", "drink", "tea", "teacup"]
             }, {
@@ -5577,18 +5385,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🥤",
                 "tags": ["juice", "soda"]
-            }, {
-                "unicode": "🧋",
-                "tags": ["bubble", "milk", "pearl", "tea"]
-            }, {
-                "unicode": "🧃",
-                "tags": ["beverage", "box", "juice", "straw", "sweet"]
-            }, {
-                "unicode": "🧉",
-                "tags": ["drink"]
-            }, {
-                "unicode": "🧊",
-                "tags": ["cold", "ice cube", "iceberg"]
             }, {
                 "unicode": "🥢",
                 "tags": ["hashi"]
@@ -5670,15 +5466,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🧱",
                 "tags": ["bricks", "clay", "mortar", "wall"]
-            }, {
-                "unicode": "🪨",
-                "tags": ["boulder", "heavy", "solid", "stone"]
-            }, {
-                "unicode": "🪵",
-                "tags": ["log", "lumber", "timber"]
-            }, {
-                "unicode": "🛖",
-                "tags": ["house", "roundhouse", "yurt"]
             }, {
                 "unicode": "🏘️",
                 "tags": ["houses"]
@@ -5881,9 +5668,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🚙",
                 "tags": ["recreational", "sport utility"]
             }, {
-                "unicode": "🛻",
-                "tags": ["pick-up", "pickup", "truck"]
-            }, {
                 "unicode": "🚚",
                 "tags": ["delivery", "truck"]
             }, {
@@ -5901,15 +5685,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🛵",
                 "tags": ["motor", "scooter"]
-            }, {
-                "unicode": "🦽",
-                "tags": ["accessibility"]
-            }, {
-                "unicode": "🦼",
-                "tags": ["accessibility"]
-            }, {
-                "unicode": "🛺",
-                "tags": ["tuk tuk", "tuk-tuk"]
             }, {
                 "unicode": "🚲️",
                 "tags": ["bike"]
@@ -5988,9 +5763,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🛬",
                 "tags": ["aeroplane", "airplane", "arrivals", "arriving", "landing"]
-            }, {
-                "unicode": "🪂",
-                "tags": ["hang-glide", "parasail", "parascend", "skydive"]
             }, {
                 "unicode": "💺",
                 "tags": ["chair"]
@@ -6162,9 +5934,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🌞",
                 "tags": ["bright", "face", "sun"]
-            }, {
-                "unicode": "🪐",
-                "tags": ["saturn", "saturnine"]
             }, {
                 "unicode": "⭐️",
                 "tags": ["star"]
@@ -6406,9 +6175,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🎣",
                 "tags": ["fish", "pole"]
             }, {
-                "unicode": "🤿",
-                "tags": ["diving", "scuba", "snorkelling"]
-            }, {
                 "unicode": "🎽",
                 "tags": ["athletics", "running", "sash", "shirt"]
             }, {
@@ -6426,9 +6192,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🪀",
                 "tags": ["fluctuate", "toy"]
-            }, {
-                "unicode": "🪁",
-                "tags": ["fly", "soar"]
             }, {
                 "unicode": "🎱",
                 "tags": ["8", "ball", "billiard", "eight", "game"]
@@ -6459,12 +6222,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🧸",
                 "tags": ["plaything", "plush", "stuffed", "toy"]
-            }, {
-                "unicode": "🪅",
-                "tags": ["celebration", "party"]
-            }, {
-                "unicode": "🪆",
-                "tags": ["babushka", "doll", "matryoshka", "nesting dolls", "russia", "russian dolls"]
             }, {
                 "unicode": "♠️",
                 "tags": ["card", "game"]
@@ -6507,9 +6264,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🧶",
                 "tags": ["ball", "crochet", "knit"]
-            }, {
-                "unicode": "🪢",
-                "tags": ["rope", "tangled", "tie", "twine", "twist"]
             }]
         }, {
             "group": 7,
@@ -6556,18 +6310,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "👘",
                 "tags": ["clothing"]
             }, {
-                "unicode": "🥻",
-                "tags": ["clothing", "dress"]
-            }, {
-                "unicode": "🩱",
-                "tags": ["bathing suit"]
-            }, {
-                "unicode": "🩲",
-                "tags": ["bathing suit", "one-piece", "pants", "swimsuit", "underwear"]
-            }, {
-                "unicode": "🩳",
-                "tags": ["bathing suit", "boardshorts", "swim shorts", "underwear"]
-            }, {
                 "unicode": "👙",
                 "tags": ["clothing", "swim"]
             }, {
@@ -6589,9 +6331,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🎒",
                 "tags": ["bag", "rucksack", "satchel", "school"]
             }, {
-                "unicode": "🩴",
-                "tags": ["beach sandals", "flipflop", "sandals", "thong sandals", "thongs", "zori", "zōri"]
-            }, {
                 "unicode": "👞",
                 "tags": ["clothing", "man", "shoe"]
             }, {
@@ -6610,9 +6349,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "👡",
                 "tags": ["clothing", "sandal", "shoe", "woman"]
             }, {
-                "unicode": "🩰",
-                "tags": ["ballet", "dance"]
-            }, {
                 "unicode": "👢",
                 "tags": ["boot", "clothing", "shoe", "woman"]
             }, {
@@ -6630,9 +6366,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "🧢",
                 "tags": ["baseball cap"]
-            }, {
-                "unicode": "🪖",
-                "tags": ["army", "helmet", "military", "soldier", "warrior"]
             }, {
                 "unicode": "⛑️",
                 "tags": ["aid", "cross", "face", "hat", "helmet"]
@@ -6706,9 +6439,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🎷",
                 "tags": ["instrument", "music", "sax"]
             }, {
-                "unicode": "🪗",
-                "tags": ["accordian", "concertina", "squeeze box"]
-            }, {
                 "unicode": "🎸",
                 "tags": ["instrument", "music"]
             }, {
@@ -6721,14 +6451,8 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🎻",
                 "tags": ["instrument", "music"]
             }, {
-                "unicode": "🪕",
-                "tags": ["music", "stringed"]
-            }, {
                 "unicode": "🥁",
                 "tags": ["drumsticks", "music"]
-            }, {
-                "unicode": "🪘",
-                "tags": ["beat", "conga", "drum", "long drum", "rhythm"]
             }, {
                 "unicode": "📱",
                 "tags": ["cell", "mobile", "phone", "telephone"]
@@ -6832,9 +6556,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🏮",
                 "tags": ["bar", "lantern", "light", "red"]
             }, {
-                "unicode": "🪔",
-                "tags": ["diya", "lamp", "oil"]
-            }, {
                 "unicode": "📔",
                 "tags": ["book", "cover", "decorated", "notebook"]
             }, {
@@ -6888,9 +6609,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "💰️",
                 "tags": ["bag", "dollar", "money", "moneybag"]
-            }, {
-                "unicode": "🪙",
-                "tags": ["gold", "metal", "money", "silver", "treasure"]
             }, {
                 "unicode": "💴",
                 "tags": ["banknote", "bill", "currency", "money", "note", "yen"]
@@ -7066,9 +6784,6 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🔨",
                 "tags": ["tool"]
             }, {
-                "unicode": "🪓",
-                "tags": ["chop", "hatchet", "split", "wood"]
-            }, {
                 "unicode": "⛏️",
                 "tags": ["mining", "tool"]
             }, {
@@ -7087,23 +6802,14 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🔫",
                 "tags": ["gun", "handgun", "revolver", "tool", "weapon"]
             }, {
-                "unicode": "🪃",
-                "tags": ["australia", "rebound", "repercussion"]
-            }, {
                 "unicode": "🏹",
                 "tags": ["archer", "arrow", "bow", "sagittarius", "zodiac"]
             }, {
                 "unicode": "🛡️",
                 "tags": ["weapon"]
             }, {
-                "unicode": "🪚",
-                "tags": ["carpentry saw"]
-            }, {
                 "unicode": "🔧",
                 "tags": ["spanner", "tool"]
-            }, {
-                "unicode": "🪛",
-                "tags": ["screw", "tool"]
             }, {
                 "unicode": "🔩",
                 "tags": ["bolt", "nut", "tool"]
@@ -7117,26 +6823,17 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "⚖️",
                 "tags": ["balance", "justice", "libra", "scale", "zodiac"]
             }, {
-                "unicode": "🦯",
-                "tags": ["guide cane"]
-            }, {
                 "unicode": "🔗",
                 "tags": ["link"]
             }, {
                 "unicode": "⛓️",
                 "tags": ["chain"]
             }, {
-                "unicode": "🪝",
-                "tags": ["catch", "crook", "curve", "ensnare", "selling point"]
-            }, {
                 "unicode": "🧰",
                 "tags": ["chest", "mechanic", "tool"]
             }, {
                 "unicode": "🧲",
                 "tags": ["attraction", "horseshoe", "magnetic"]
-            }, {
-                "unicode": "🪜",
-                "tags": ["ladder"]
             }, {
                 "unicode": "⚗️",
                 "tags": ["chemistry", "tool"]
@@ -7162,29 +6859,11 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "💉",
                 "tags": ["medicine", "needle", "shot", "sick"]
             }, {
-                "unicode": "🩸",
-                "tags": ["bleed", "blood donation", "injury", "medicine", "menstruation"]
-            }, {
                 "unicode": "💊",
                 "tags": ["doctor", "medicine", "sick"]
             }, {
-                "unicode": "🩹",
-                "tags": ["plaster"]
-            }, {
-                "unicode": "🩺",
-                "tags": ["doctor", "heart", "medicine"]
-            }, {
                 "unicode": "🚪",
                 "tags": ["door"]
-            }, {
-                "unicode": "🛗",
-                "tags": ["accessibility", "elevator", "hoist"]
-            }, {
-                "unicode": "🪞",
-                "tags": ["mirror"]
-            }, {
-                "unicode": "🪟",
-                "tags": ["frame", "fresh air", "opening", "transparent", "view"]
             }, {
                 "unicode": "🛏️",
                 "tags": ["hotel", "sleep"]
@@ -7192,26 +6871,14 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🛋️",
                 "tags": ["couch", "hotel", "lamp"]
             }, {
-                "unicode": "🪑",
-                "tags": ["seat", "sit"]
-            }, {
                 "unicode": "🚽",
                 "tags": ["toilet"]
-            }, {
-                "unicode": "🪠",
-                "tags": ["force cup", "plumber", "suction", "toilet"]
             }, {
                 "unicode": "🚿",
                 "tags": ["water"]
             }, {
                 "unicode": "🛁",
                 "tags": ["bath"]
-            }, {
-                "unicode": "🪤",
-                "tags": ["bait", "mouse trap", "snare", "trap"]
-            }, {
-                "unicode": "🪒",
-                "tags": ["cut-throat razor"]
             }, {
                 "unicode": "🧴",
                 "tags": ["lotion", "moisturiser", "shampoo", "sunscreen"]
@@ -7228,14 +6895,8 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🧻",
                 "tags": ["paper towels", "toilet paper", "toilet roll"]
             }, {
-                "unicode": "🪣",
-                "tags": ["cask", "pail", "vat"]
-            }, {
                 "unicode": "🧼",
                 "tags": ["bar", "bathing", "cleaning", "lather", "soapdish"]
-            }, {
-                "unicode": "🪥",
-                "tags": ["bathroom", "brush", "clean", "dental", "hygiene", "teeth"]
             }, {
                 "unicode": "🧽",
                 "tags": ["absorbing", "cleaning", "porous"]
@@ -7251,9 +6912,6 @@ if(typeof jQuery !== 'undefined'){
             }, {
                 "unicode": "⚰️",
                 "tags": ["death"]
-            }, {
-                "unicode": "🪦",
-                "tags": ["cemetery", "grave", "graveyard", "tombstone"]
             }, {
                 "unicode": "⚱️",
                 "tags": ["ashes", "death", "funeral", "urn"]
@@ -7828,50 +7486,14 @@ if(typeof jQuery !== 'undefined'){
                 "unicode": "🔴",
                 "tags": ["circle", "geometric", "red"]
             }, {
-                "unicode": "🟠",
-                "tags": ["circle", "orange"]
-            }, {
-                "unicode": "🟡",
-                "tags": ["circle", "yellow"]
-            }, {
-                "unicode": "🟢",
-                "tags": ["circle", "green"]
-            }, {
                 "unicode": "🔵",
                 "tags": ["blue", "circle", "geometric"]
-            }, {
-                "unicode": "🟣",
-                "tags": ["circle", "purple"]
-            }, {
-                "unicode": "🟤",
-                "tags": ["brown", "circle"]
             }, {
                 "unicode": "⚫️",
                 "tags": ["circle", "geometric"]
             }, {
                 "unicode": "⚪️",
                 "tags": ["circle", "geometric"]
-            }, {
-                "unicode": "🟥",
-                "tags": ["red", "square"]
-            }, {
-                "unicode": "🟧",
-                "tags": ["orange", "square"]
-            }, {
-                "unicode": "🟨",
-                "tags": ["square", "yellow"]
-            }, {
-                "unicode": "🟩",
-                "tags": ["green", "square"]
-            }, {
-                "unicode": "🟦",
-                "tags": ["blue", "square"]
-            }, {
-                "unicode": "🟪",
-                "tags": ["purple", "square"]
-            }, {
-                "unicode": "🟫",
-                "tags": ["brown", "square"]
             }, {
                 "unicode": "⬛️",
                 "tags": ["geometric", "square"]
