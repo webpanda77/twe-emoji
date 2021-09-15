@@ -8377,6 +8377,7 @@ if(typeof jQuery !== 'undefined'){
                 .addClass('lsx-emojipicker-appender');
             var container = $('<div></div>')
                 .addClass('lsx-emojipicker-container')
+                .attr('id','lsx-emojipicker-container')
                 .css({
                     'top': -(settings.height + 70)
                 });
@@ -8606,6 +8607,17 @@ if(typeof jQuery !== 'undefined'){
                     container.hide();
                 } else {
                     container.fadeIn();
+                }
+            });
+            
+            $(document).click(function(e) 
+            {
+                var emojipicker = $(".emoji-picker");
+                if (e.target.id != 'lsx-emojipicker-container' && $(e.target).parents('#lsx-emojipicker-container').length == 0) {
+                    if (!emojipicker.is(e.target) && emojipicker.has(e.target).length === 0)
+                    {
+                        container.hide();
+                    }
                 }
             });
 
